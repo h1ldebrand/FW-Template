@@ -1,5 +1,9 @@
 @import "~bootstrap/scss/bootstrap";
 
 .stan{
+  width: 150px;
+  height: 225px;
   background-image: url('./stan.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
 }

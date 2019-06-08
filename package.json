@@ -7,6 +7,7 @@
     "webpack": "webpack",
     "build": "webpack -d",
     "prod": "webpack -p",
+    "start:dev": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -25,11 +26,11 @@
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "webpack": "^4.32.2",
-    "webpack-cli": "^3.3.2"
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.7.1"
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "jquery": "^3.4.1",
-    "popper.js": "^1.15.0"
+    "jquery": "^3.4.1"
   }
 }
